@@ -1,4 +1,5 @@
 site_name: SchoolOfSRE
+site_url: https://datasci-info.github.io/school-of-sre/
 docs_dir: courses
 theme:
   name: material
@@ -66,7 +67,10 @@ nav:
     - Conclusion: security/conclusion.md
 - Contribute: CONTRIBUTING.md
 copyright: "Copyright 2020 LinkedIn Corporation. All Rights Reserved. Licensed under the Creative Commons Attribution 4.0 International Public License"
+markdown_extensions:
+  - meta
 extra:
     social:
         - icon: fontawesome/brands/github
           link: https://github.com/linkedin/school-of-sre
+    disqus: schoolofsre
